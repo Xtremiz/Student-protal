@@ -7,10 +7,9 @@ void main() {
   stdout.write("Enter your password: ");
   String? password = stdin.readLineSync();
 
-  if (name != null && password != null) {
-    print("Name: $name");
-    print("Password: $password");
+  if (name == "g" && password == "g") {
+    print("login");
   } else {
-    print("Invalid input.");
+    print("fail");
   }
 }
